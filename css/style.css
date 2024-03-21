@@ -1,0 +1,123 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 12px;
+    padding: 0.5rem 3rem;
+    margin: 1rem 2rem;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+ul{
+    margin: 0rem 3rem;
+}
+.hero{
+    margin: 7rem 1rem;
+}
+div .hero{
+    justify-content: space-between;
+}
+.hero .umkm-title{
+    font-size: 7rem;
+    font-weight: 700;
+}
+.hero .umkm-sub{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1.2rem;
+    margin-top: -2rem;
+}
+.hero .umkm-tagline{
+    font-size: 1.5rem;
+    word-spacing: 2rem;
+}
+.btn{
+    background-color: rgb(179, 179, 179);
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50px;
+}
+.hero-desc{
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+.hero-right{
+    align-items: end;
+}
+.hero-right img{
+    border-radius: 12px;
+    height: 600px;
+}
+.product-section{
+    margin: 7rem 1rem;
+}
+.section-title{
+    font-size: 2.5rem;
+}
+.product-item{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: -2rem;
+    padding: 1rem 0rem;
+}
+.product-title{
+    font-size: 1.5rem;
+}
+.product-price{
+    font-weight: 700;
+}
+.service-section{
+    margin: 7rem 1rem;
+}
+.service-section img{
+    border-radius: 12px;
+    width: 500px;
+}
+.about-left img{
+    height: 500px;
+    border-radius: 12px;
+}
+.footer-section{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 1.5rem;
+}
+.footer-logo img{
+    width: 100px;
+    border-radius: 50px;
+}
+.footer-section ul{
+    list-style-type: none;
+}
+.footer-list-title{
+    font-weight: 700;
+}
+.footer-cr{
+    text-align: center;
+    margin-bottom: -1rem;
+}
+.product-main{
+    margin: 10rem 1rem;
+}
+.card{
+    background-color: rgb(234, 234, 234);
+}
+.about-main-section{
+    margin: 7rem 1rem;
+}
+.icon-socmed{
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.icon-socmed i{
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    color: black;
+}
