@@ -123,7 +123,8 @@ div .hero{
 }
 @media (max-width: 500px){
     .navbar{
-        /* padding: 0.5rem 0rem; */
+        padding: 0.5rem 0rem;
+        margin: 1rem 0.5rem;
     }
     .hero .umkm-title{
         font-size: 5rem;
@@ -135,6 +136,13 @@ div .hero{
     }
     .hero .umkm-tagline{
         font-size: 1rem;
+    }
+    .hero .umkm-desc{
+        margin-top: 0rem;
+        margin-bottom: 4rem;
+    }
+    .hero-right img{
+        height: 80%;
     }
     .footer-logo img{
         width: 70px;
