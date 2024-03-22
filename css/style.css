@@ -121,3 +121,31 @@ div .hero{
     padding: 0rem 1rem;
     color: black;
 }
+@media (max-width: 500px){
+    .navbar{
+        padding: 0.5rem 0rem;
+    }
+    .hero .umkm-title{
+        font-size: 5rem;
+    }
+    .hero .umkm-sub{
+        font-size: 2rem;
+        margin-top: -1rem;
+        letter-spacing: 0.9rem;
+    }
+    .hero .umkm-tagline{
+        font-size: 1rem;
+    }
+    .footer-logo img{
+        width: 70px;
+    }
+    .footer-section .col-7{
+        width: 100%;
+        margin: 1rem;
+        margin-top: -4.5rem;
+    }
+    .footer-section .col-4{
+        width: 100%;
+        margin: 1rem;
+    }
+}
