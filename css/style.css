@@ -123,7 +123,7 @@ div .hero{
 }
 @media (max-width: 500px){
     .navbar{
-        padding: 0.5rem 0rem;
+        /* padding: 0.5rem 0rem; */
     }
     .hero .umkm-title{
         font-size: 5rem;
