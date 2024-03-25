@@ -1,3 +1,12 @@
+.dark {
+    background-color: #292929;
+    color: #ffff;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -80,6 +89,9 @@ div .hero{
     border-radius: 12px;
     width: 500px;
 }
+.about-section{
+    margin: 7rem 1rem;
+}
 .about-left img{
     height: 500px;
     border-radius: 12px;
@@ -125,6 +137,9 @@ div .hero{
     .navbar{
         padding: 0.5rem 0rem;
         margin: 1rem 0.5rem;
+    }
+    .form-check{
+        padding: 1rem 1.5rem;
     }
     .hero .umkm-title{
         font-size: 5rem;

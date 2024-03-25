@@ -38,6 +38,9 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-secondary" type="submit">Search</button>
             </form>
+            <div class="form-check form-switch nav-item ms-3" onclick="dark()">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            </div>
           </div>
         </div>
     </nav>
@@ -57,7 +60,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="hero-right float-end">
-                        <img src="https://i.pinimg.com/564x/ad/03/7c/ad037c9f70a50e39ac4c4fb59b30251c.jpg" class="img-fluid">
+                        <img src="images/1-2.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -78,7 +81,7 @@
                 <!-- Start Column 2 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="#">
-                        <img src="images/product-img.png" class="img-fluid product-thumbnail">
+                        <img src="images/WhatsApp Image 2024-03-25 at 10.11.34 (1).png" class="img-fluid product-thumbnail">
                         <p class="product-title">Produk 1</p>
                         <p class="product-price">Rp. 50.000</p>
                     </a>
@@ -87,7 +90,7 @@
                 <!-- Start Column 3 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="#">
-                        <img src="images/product-img.png" class="img-fluid product-thumbnail">
+                        <img src="images/WhatsApp Image 2024-03-25 at 10.11.35 (1).png" class="img-fluid product-thumbnail">
                         <p class="product-title">Produk 1</p>
                         <p class="product-price">Rp. 50.000</p>
                     </a>
@@ -96,7 +99,7 @@
                 <!-- Start Column 4 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="#">
-                        <img src="images/product-img.png" class="img-fluid product-thumbnail">
+                        <img src="images/WhatsApp Image 2024-03-25 at 10.11.35.png" class="img-fluid product-thumbnail">
                         <p class="product-title">Produk 1</p>
                         <p class="product-price">Rp. 50.000</p>
                     </a>
@@ -116,21 +119,28 @@
                             <!-- Start Column 1 -->
                             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                                 <a class="product-item" href="#">
-                                    <img src="images/cover-img.jpeg" class="img-fluid product-thumbnail">
+                                    <img src="images/1-2.png" class="img-fluid product-thumbnail">
                                 </a>
                             </div> 
                             <!-- End Column 1 -->
                             <!-- Start Column 2 -->
-                            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-                                <a class="product-item" href="#">
-                                    <img src="images/cover-img.jpeg" class="img-fluid product-thumbnail">
-                                </a>
+                            <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex flex-column">
+                                <div class="mb-5">
+                                    <a class="product-item" href="#">
+                                        <img src="images/2-2.png" class="img-fluid product-thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="product-item" href="#">
+                                        <img src="images/2-2.png" class="img-fluid product-thumbnail">
+                                    </a>
+                                </div>
                             </div>
                             <!-- End Column 2 -->
                             <!-- Start Column 3 -->
                             <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                                 <a class="product-item" href="#">
-                                    <img src="images/cover-img.jpeg" class="img-fluid product-thumbnail">
+                                    <img src="images/3-1.png" class="img-fluid product-thumbnail">
                                 </a>
                             </div>
                             <!-- End Column 3 -->
@@ -138,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <h2 class="mb-4 section-title">Menerima kustomisasi dekorasi</h2>
+                    <h2 class="mb-4 section-title">Menerima kustomisasi desain dekorasi</h2>
                     <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ab quidem voluptas.</p>
                     <p><a href="#" class="btn btn-secondary">Contact us</a></p>
                 </div>
@@ -152,7 +162,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-5 mb-5">
                     <div class="about-left">
-                        <img class="img-fluid" src="images/cover-img.jpeg" alt="">
+                        <img class="img-fluid" src="images/daruna-logo.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -195,7 +205,39 @@
         </div>
     </div>
     <!-- End Footer -->
+    <!-- Start Modal -->
+    <div
+      class="modal fade pt-5" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-secondary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="js/mode.js"></script>
 </body>
 </html>
